@@ -22,3 +22,8 @@ I developed an application that allows users to directly interact with a SQL dat
 
 ## Conclusion
 This interactive SQL database application demonstrates the power of combining large language models, prompt engineering, and few-shot learning to create a user-friendly tool for data exploration and insight generation. By leveraging the Gemini Pro LLM, this application enables users to quickly and easily access the information they need, driving data-informed decision-making and business success.
+
+## Final Output
+![Figure 1](https://raw.githubusercontent.com/udayaKherath/Final-Year-Research/main/img1.png)
+![Figure 1](https://raw.githubusercontent.com/udayaKherath/Final-Year-Research/main/img2.png)
+![Figure 1](https://raw.githubusercontent.com/udayaKherath/Final-Year-Research/main/img3.png)
