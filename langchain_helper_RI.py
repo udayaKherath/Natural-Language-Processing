@@ -30,14 +30,14 @@ def filter_complex_metadata(documents, allowed_types=(str, int, float, bool, obj
 
 def get_few_shot_db_chain():
 
-    api_key = "AIzaSyBC-tfOnEcYXuSYmNQkOmWjSu6e3EFYqWg"
+    api_key = ""
 
     llm = GooglePalm(google_api_key=api_key, temperature=0.1)
 
-    db_user = "root"
-    db_password = "123"
-    db_host = "localhost"
-    db_name = "perf-custom1"
+    db_user = ""
+    db_password = ""
+    db_host = ""
+    db_name = ""
 
     db = SQLDatabase.from_uri(f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}", sample_rows_in_table_info = 3)
 
